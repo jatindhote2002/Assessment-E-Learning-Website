@@ -1,0 +1,17 @@
+/*
+Theme Name:  eLearning Education Child
+Template: elearning-education
+Description: Theratio is a WordPress theme for Interior Design & Architecture Company. Theratio is easy to use, it provides everything you need to create a great looking website. With Theratio, you can impress your customer with its professional design and interactivity. Theratio is built with the latest website technology to ensure your website looks nice on desktop and mobile. Get Theratio now!
+Text Domain: eLearning Education
+Domain Path: /languages/
+Tags: one-column, two-columns, left-sidebar, right-sidebar, full-width-template, post-formats, theme-options, threaded-comments, translation-ready
+*/
+
+/* Your custom CSS goes below */
+
+.main-navigation > ul > li:hover > a:before,
+.main-navigation > ul > li.current-menu-item > a:before,
+.main-navigation > ul > li.current-menu-ancestor > a:before,
+.main-navigation > ul > li > a.mPS2id-highlight:before {
+    display: none !important;
+}
